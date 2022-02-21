@@ -8,7 +8,7 @@ size: 3
 health: 1200
 force: 0
 damage: 5
-laserWidth: 1
+laserWidth: .5
 statusDuration: 10
 status: slow
 consumes: {
