@@ -1,4 +1,5 @@
 name: Division
+description: Uses diamonds to focus down a laser into a damaging beam.
 type: TractorBeamTurret
 targetGround: true
 shootLength: 10
