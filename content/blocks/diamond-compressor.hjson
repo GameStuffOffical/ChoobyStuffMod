@@ -1,0 +1,28 @@
+name:Diamond Compressor
+description:Compresses coal into Diamonds
+type: GenericCrafter
+size:3
+hasPower: true
+hasItems: true
+craftTime: 160
+craftEffect: smelt
+category: crafting
+itemCapacity: 10
+
+consumes: {
+  items: {
+    items: [
+      coal/5
+    ]
+  }
+}
+	
+outputItem: diamond/1
+  
+requirements: [
+  copper/40
+  lead/45
+  silicon/10
+  titanium/50
+  graphite/25
+]
