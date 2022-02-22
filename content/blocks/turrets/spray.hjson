@@ -17,7 +17,7 @@ rotateSpeed: 10
 inaccuracy: 23
 shootCone: 35
 
-ammo:{
+ammoTypes:{
   sand: {
     damage: 10
     bulletType: flakGlass
