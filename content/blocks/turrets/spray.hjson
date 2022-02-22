@@ -19,9 +19,13 @@ shootCone: 35
 
 ammoTypes:{
   sand: {
-    damage: 10
+    frontColor: brown
+    backColor: tan
+    damage: 5
+    length: 5
+    width: 5
     bulletType: flakGlass
-    speed: 3
-    reloadSpeed: 3
+    speed: 2
+    reloadSpeed: 1
   }
 }
