@@ -2,7 +2,7 @@
 	name: Excalibur
 	description: Powerful version of lancer, uses diamonds to refract light to a fine point
 	health: 2540
-	size: 3
+	size: 2
 	reload: 110
 	range: 180
 	shootCone: 20
