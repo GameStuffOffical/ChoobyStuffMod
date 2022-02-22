@@ -1,3 +1,4 @@
+type: ItemTurret
 name: Spray
 requirements: [
   copper/ 75
