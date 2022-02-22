@@ -11,6 +11,7 @@ size: 2
 burstSpacing: 5
 shots: 2
 targetGround: true
+reloadSpeed: 1
 
 recoilAmount: 1
 rotateSpeed: 10
@@ -26,6 +27,5 @@ ammoTypes:{
     width: 5
     bulletType: BasicBulletType
     speed: 2
-    reloadSpeed: 1
   }
 }
