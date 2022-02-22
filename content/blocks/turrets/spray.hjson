@@ -5,11 +5,10 @@ requirements: [
   lead/ 40
   sand/15
 ]
-reloadTme: 9
 range: 110
 size: 2
-burstSpacing: 5
-shots: 2
+burstSpacing: 1
+shots: 5
 targetGround: true
 reloadSpeed: 1
 
@@ -24,6 +23,6 @@ ammoTypes:{
     width: 5
     height: 5
     bulletType: BasicBulletType
-    speed: 2
+    speed: 4
   }
 }
