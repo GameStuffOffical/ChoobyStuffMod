@@ -1,0 +1,23 @@
+type: TractorBeamTurret
+targetGround: true
+shootLength: 80
+range: 128
+size: 6
+health: 9600
+force: 0
+scaledForce: 0
+damage: 320
+laserWidth: 0.0625
+statusDuration: 10
+status: slow
+consumes: {
+  power: 6.6
+}
+category: turret
+requirements: [
+  lead/250
+  titanium/125
+  plastanium/75
+  diamond/800
+
+]
