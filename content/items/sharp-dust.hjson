@@ -1,0 +1,9 @@
+name:Sharp Dust
+description:Diamond fragments ground into a fine dust. Dont get this stuck in your servos!
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 5
+alwaysUnlocked: true
+charge: 0
+cost: 5
