@@ -1,0 +1,26 @@
+{
+	"localizedName": "Excalibur",
+	"description": "Powerful version of lancer, uses diamonds to refract light to a fine point",
+	"health": 2540,
+	"size": 3,
+	"reload": 110,
+	"range": 180,
+	"shootCone": 20,
+	"ammoUseEffect": "none",
+	"rotatespeed": 4.5,
+	"recoil": 3,
+	"powerUse": 4.1,
+	"hasPower": true,
+	"targetAir": false,
+	"chargeEffects": 10,
+	"chargeMaxDelay": 35,
+	"chargeTime": 60,
+	"cooldown": 0.022,
+	"requirements": [
+		{ "item": "silicon", "amount": 180 },
+		{ "item": "titanium", "amount": 110 },
+		{ "item": "diamond", "amount": 30 }
+	],
+	"category": "turret",
+	"research": "lancer"
+}
