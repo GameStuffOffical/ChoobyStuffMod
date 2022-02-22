@@ -23,8 +23,8 @@ ammoTypes:{
     frontColor: brown
     backColor: tan
     damage: 5
-    length: 5
-    width: 5
+    bulletWidth: 5
+    bulletHeight: 5
     bulletType: BasicBulletType
     speed: 2
   }
