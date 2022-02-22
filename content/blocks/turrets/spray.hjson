@@ -24,7 +24,7 @@ ammoTypes:{
     damage: 5
     length: 5
     width: 5
-    bulletType: flakGlass
+    bulletType: BasicBulletType
     speed: 2
     reloadSpeed: 1
   }
