@@ -1,0 +1,24 @@
+name: Spray
+requirements: [
+  copper/ 75
+  lead/ 40
+  sand/15
+]
+reloadTme: 9
+range: 110
+size: 2
+burstSpacing: 5
+shots: 2
+targetGround: true
+
+recoilAmount: 1
+rotateSpeed: 10
+inaccuracy: 23
+shootCone: 35
+
+ammo:{
+  sand: {
+    damage: 10
+    bulletType: flakGlass
+  }
+}
