@@ -20,11 +20,9 @@ shootCone: 35
 
 ammoTypes:{
   sand: {
-    frontColor: brown
-    backColor: tan
     damage: 5
-    bulletWidth: 5
-    bulletHeight: 5
+    width: 5
+    height: 5
     bulletType: BasicBulletType
     speed: 2
   }
