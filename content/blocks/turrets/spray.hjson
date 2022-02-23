@@ -8,7 +8,7 @@ requirements: [
 range: 110
 size: 2
 targetGround: true
-reloadSpeed: 1
+reloadSpeed: 0
 
 recoilAmount: 1
 rotateSpeed: 10
