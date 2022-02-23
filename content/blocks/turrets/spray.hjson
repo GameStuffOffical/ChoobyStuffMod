@@ -23,7 +23,7 @@ ammoTypes:{
     width: 15
     height: 15
     bulletType: BasicBulletType
-    status: blinded
+    status: sanded
     speed: 4
   }
     sharp-dust: {
