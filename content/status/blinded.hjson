@@ -1,0 +1,10 @@
+speedMultiplier: .5
+buildSpeedMultiplier: .5
+reloadMultipier: .5
+affinities: [
+  slow
+  tarred
+]
+opposites: [
+  wet
+]
