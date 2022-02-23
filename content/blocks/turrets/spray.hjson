@@ -7,8 +7,6 @@ requirements: [
 ]
 range: 110
 size: 2
-burstSpacing: 1
-shots: 5
 targetGround: true
 reloadSpeed: 1
 
