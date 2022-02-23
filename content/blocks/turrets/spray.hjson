@@ -23,7 +23,6 @@ ammoTypes:{
     width: 15
     height: 15
     bulletType: BasicBulletType
-    status: slowed
     speed: 4
   }
     sharp-dust: {
@@ -31,7 +30,6 @@ ammoTypes:{
     width: 10
     height: 10
     bulletType: BasicBulletType
-    status: slowed
     speed: 3
   }
 }
