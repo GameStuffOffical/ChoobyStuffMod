@@ -9,6 +9,7 @@ range: 40
 rotateSpeed: 100
 reloadTime: 1
 bulletSpeed: 1
+minDistribute: 5
 
 requirements: [
   copper/6
