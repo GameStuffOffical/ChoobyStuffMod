@@ -1,11 +1,12 @@
 name: Heal Lancer
+size: 2
 description: Heals With Lancer Beam
 type: LaserTurret
 targetGround: true
 range: 165
 chargeTime: 40
 chargeMaxDelay: 30
-recoilAmount: 80
+recoilAmount: 8
 coolDown: 0.03
 shootEffect: lancerLaserShoot
 smokeEffect: none
@@ -16,19 +17,30 @@ targetAir: false
 shootSound: laser
 
 shootType:{
-  shootType: LaserBulletType
-  damage: 140
+  hitEffect: hitLancer
+  hitSize: 4
   lifetime: 16
+  drawSize: 400
+  collidesAir: false
   length: 173
-  collidesTeam: true
-  healPercent: 100
+  ammoMultipier: 1
+  shootType: LaserBulletType
   colors: [
-    6f7fe840
-    6f7fe8
-    ffffff
+  ff0000ff
+  00ff00ff
+  0000ffff
   ]
-lightColor: 6f7fe8
 }
+            shootType = new LaserBulletType(140){{
+                colors = new Color[]{Pal.lancerLaser.cpy().a(0.4f), Pal.lancerLaser, Color.white};
+                hitEffect = Fx.hitLancer;
+                hitSize = 4;
+                lifetime = 16f;
+                drawSize = 400f;
+                collidesAir = false;
+                length = 173f;
+                ammoMultiplier = 1f;
+            }};
 
 consumes: {
   power: 6
