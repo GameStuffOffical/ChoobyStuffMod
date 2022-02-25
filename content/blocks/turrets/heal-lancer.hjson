@@ -16,6 +16,7 @@ targetAir: false
 shootSound: laser
 
 ammoTypes:{
+  shootType: LaserBulletType
   damage: 140
   lifetime: 16
   length: 173
