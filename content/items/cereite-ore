@@ -1,0 +1,9 @@
+name:cereite
+description: A resorce with mystycal healing properties.
+explosiveness: 0
+flammability: 0
+radioactivity: .5
+hardness: 2
+alwaysUnlocked: true
+charge: 1
+cost: 5
