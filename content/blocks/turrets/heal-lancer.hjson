@@ -1,36 +1,26 @@
 name: Heal Lancer
 size: 2
-description: Heals With Lancer Beam
-type: LaserTurret
-targetGround: true
-range: 165
-chargeTime: 40
-chargeMaxDelay: 30
-recoilAmount: 8
-coolDown: 0.03
-shootEffect: lancerLaserShoot
-smokeEffect: none
-chargeEffect: lancerLaserCharge
-chargeBeginEffect: lancerLaserChargeBegin
-heatColor: ff0000ff
-targetAir: false
-shootSound: laser
-
-shootType:{
-  hitEffect: hitLancer
-  hitSize: 4
-  lifetime: 16
-  drawSize: 400
-  collidesAir: false
-  length: 173
-  ammoMultipier: 1
-  shootType: LaserBulletType
-  colors: [
-  ff0000ff
-  00ff00ff
-  0000ffff
-  ]
+type: PowerTurret
+health: 260
+reloadTime: 30
+range: 120
+shots: 2
+burstSpacing: 3
+spread: 0
+powerUse: 0.85
+targetHealing: true
+shootSound: lasershoot
+shootType: {
+  type: LaserBoltBulletType
+  damage: 5
+  collidesTeam: true
+  healPercent: 2
+  speed: 6
+  lifetime: 20
+  frontColor: ffffff
+  backColor: 83f793
 }
+
 
 consumes: {
   power: 6
