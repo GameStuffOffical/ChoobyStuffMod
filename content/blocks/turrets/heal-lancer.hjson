@@ -31,16 +31,6 @@ shootType:{
   0000ffff
   ]
 }
-            shootType = new LaserBulletType(140){{
-                colors = new Color[]{Pal.lancerLaser.cpy().a(0.4f), Pal.lancerLaser, Color.white};
-                hitEffect = Fx.hitLancer;
-                hitSize = 4;
-                lifetime = 16f;
-                drawSize = 400f;
-                collidesAir = false;
-                length = 173f;
-                ammoMultiplier = 1f;
-            }};
 
 consumes: {
   power: 6
