@@ -15,7 +15,7 @@ heatColor: ff0000ff
 targetAir: false
 shootSound: laser
 
-ammoTypes:{
+shootType:{
   shootType: LaserBulletType
   damage: 140
   lifetime: 16
