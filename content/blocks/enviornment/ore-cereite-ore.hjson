@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: cereite-ore
+mapColor:00ff00ff
+hasColor: true
