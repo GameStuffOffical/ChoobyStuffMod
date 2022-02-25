@@ -4,7 +4,8 @@ type: LaserTurret
 targetGround: true
 range: 165
 chargeTime: 40
-chargeMaxDelay
+chargeMaxDelay: 30
+chargeEffects: 7
 recoilAmount: 80
 coolDown: 0.03
 shootEffect: lancerLaserShoot
