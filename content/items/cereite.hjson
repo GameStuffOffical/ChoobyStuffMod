@@ -1,0 +1,9 @@
+name:Cereite
+description:Refined cereite ore
+explosiveness: 0
+flammability: 0
+radioactivity: 1
+hardness: 0
+alwaysUnlocked: true
+charge: 2
+cost: 5
