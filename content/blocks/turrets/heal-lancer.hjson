@@ -1,0 +1,41 @@
+name: Heal Lancer
+description: Heals With Lancer Beam
+type: LaserTurret
+targetGround: true
+range: 165
+chargeTime: 40
+chargeMaxDelay
+chargeEffects: 7
+recoilAmount: 80
+coolDown: 0.03
+shootEffect: lancerLaserShoot
+smokeEffect: none
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: ff0000ff
+targetAir: false
+shootSound: laser
+
+ammoTypes:{
+  damage: 140
+  lifetime: 16
+  length: 173
+  collidesTeam: true
+  healPercent: 100
+  colors: [
+    6f7fe840
+    6f7fe8
+    ffffff
+  ]
+lightColor: 6f7fe8
+}
+
+consumes: {
+  power: 6
+}
+category: turret
+requirements: [
+  copper/60
+  lead/70
+  silicon/50
+]
