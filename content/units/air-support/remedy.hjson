@@ -1,0 +1,96 @@
+name: Remedy
+type: flying
+flying: true
+health: 250
+speed: 2.5
+accel: 0.25
+drag: 0.01
+controller: repairAI
+weapons: [
+  {
+    name: pill-gun
+    mirror: false
+    x: 0
+    y: 0
+    shootY: 4
+    reload: 12
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 1
+      speed: 8
+      recoil: 0.6
+      frontColor: 00ff00ff
+      backColor: 00ff00ff
+      collidesTeam: true
+      lifetime: 25
+      healPercent: 100
+      lightColor: 00ff00ff
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: ffffff00
+        colorTo: ffffffff
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      hitEffect: none
+      despawnEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: ffffffff
+        colorTo: ffffffff
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+    {
+    name: pill-gun
+    mirror: true
+    x: 2
+    y: -3
+    shootY: 4
+    reload: 12
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 1
+      speed: 8
+      recoil: 0.6
+      frontColor: 00ff00ff
+      backColor: 00ff00ff
+      collidesTeam: true
+      lifetime: 25
+      healPercent: 100
+      lightColor: 00ff00ff
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: ffffff00
+        colorTo: ffffffff
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+      hitEffect: none
+      despawnEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: ffffffff
+        colorTo: ffffffff
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }
+  }
+]
