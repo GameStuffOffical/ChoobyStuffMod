@@ -1,8 +1,8 @@
 type: MendProjector
 health: 600
-range: 4
+range: 8
 reload: 30
-healPercent: 2.5
+healPercent: 1
 phaseBoost: 0
 phaseRangeBoost: 0
 category: defense
