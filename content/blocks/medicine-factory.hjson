@@ -1,0 +1,25 @@
+name:Medicine Factory
+description:Creates varryious medicinal units.
+type: UnitFactory
+size:3
+
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: pill
+    time: 1800
+    requirements: [
+      silicon/5
+      cereite/10
+    ]
+  }
+]
+requirements: [
+  lead/75
+  silicon/40
+]
+research: ground-factory
+category: units
+© 2022 GitHub, Inc.
