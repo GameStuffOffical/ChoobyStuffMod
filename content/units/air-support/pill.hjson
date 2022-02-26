@@ -17,14 +17,14 @@ weapons: [
     shake: 0.5
     bullet: {
       type: LaserBoltBulletType
-      damage: 7
+      damage: 700000
       speed: 6
       recoil: 0.6
       frontColor: 00ff00ff
       backColor: ffffffff
       collidesTeam: true
       lifetime: 25
-      healPercent: 4
+      healPercent: 1
       lightColor: 00ff00ff
       smokeEffect: {
         type: WaveEffect
