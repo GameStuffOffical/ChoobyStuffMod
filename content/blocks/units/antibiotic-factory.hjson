@@ -1,0 +1,29 @@
+name: Antibiotic Factory
+type: Reconstructor
+
+requirements: [
+  copper/ 200
+  lead/120
+  silicon/90
+  cereite/ 50
+]
+  
+ constructime: 700
+  
+size: 3
+consumePower: 3
+consumes: {
+    items: {
+     items: [
+  silicon/40
+  graphite/40
+  cereite/ 60
+  ]
+ }
+}
+
+upgrades: [
+  [pill, remedy]
+]
+
+category: units
