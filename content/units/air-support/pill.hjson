@@ -30,8 +30,8 @@ weapons: [
         type: WaveEffect
         sizeFrom: 0
         sizeTo: 8
-        colorFrom: 6f7fe8
-        colorTo: 6f7fe8
+        colorFrom: ffffff00
+        colorTo: ffffffff
         lifetime: 10
         strokeFrom: 1
         strokeTo: 0
@@ -41,8 +41,8 @@ weapons: [
         type: WaveEffect
         sizeFrom: 0
         sizeTo: 8
-        colorFrom: 6f7fe8
-        colorTo: 6f7fe8
+        colorFrom: ffffffff
+        colorTo: ffffffff
         lifetime: 10
         strokeFrom: 1
         strokeTo: 0
