@@ -1,0 +1,13 @@
+type: MendProjector
+health: 600
+range: 4
+reload: 30
+healPercent: 2.5
+phaseBoost: 0
+phaseRangeBoost: 0
+category: defense
+research: mender
+requirements: [
+  phaseFabric/ 6
+  cereite/ 6
+]
