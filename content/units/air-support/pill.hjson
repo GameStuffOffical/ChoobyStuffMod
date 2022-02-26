@@ -1,3 +1,4 @@
+name: Pill
 type: flying
 flying: true
 health: 130
@@ -7,7 +8,7 @@ drag: 0.005
 controller: repairAI
 weapons: [
   {
-    name: victory-weapon
+    name: pill-gun
     mirror: false
     x: 0
     y: 0
