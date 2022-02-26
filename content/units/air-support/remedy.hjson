@@ -11,7 +11,7 @@ weapons: [
     name: heal-minigun
     mirror: true
     x: 4
-    y: -6
+    y: -2
     shootY: 4
     reload: 6
     shootSound: lasershoot
