@@ -1,9 +1,9 @@
 type: flying
 flying: true
 health: 130
-speed: 2.4
-accel: 0.25
-drag: 0.01
+speed: 3
+accel: 0.50
+drag: 0.005
 controller: repairAI
 weapons: [
   {
@@ -17,11 +17,11 @@ weapons: [
     shake: 0.5
     bullet: {
       type: LaserBoltBulletType
-      damage: 5
-      speed: 6
+      damage: 1
+      speed: 8
       recoil: 0.6
       frontColor: 00ff00ff
-      backColor: ffffffff
+      backColor: 00ff00ff
       collidesTeam: true
       lifetime: 25
       healPercent: 100
