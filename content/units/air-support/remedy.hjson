@@ -53,8 +53,8 @@ weapons: [
     {
     name: pill-gun
     mirror: true
-    x: 2
-    y: -3
+    x: 4
+    y: -6
     shootY: 4
     reload: 12
     shootSound: lasershoot
