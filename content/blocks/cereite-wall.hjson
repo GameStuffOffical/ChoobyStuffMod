@@ -8,6 +8,6 @@ phaseRangeBoost: 0
 category: defense
 research: mender
 requirements: [
-  phaseFabric/ 6
+  phase-fabric/ 6
   cereite/ 6
 ]
