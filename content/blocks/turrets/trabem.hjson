@@ -1,4 +1,4 @@
-name: Division
+name: Trabem
 description: Uses diamonds to focus down a laser into a damaging beam.
 type: TractorBeamTurret
 targetGround: true
@@ -14,6 +14,7 @@ status: slow
 consumes: {
   power: 6.6
 }
+hitEffect: hitLancer
 category: turret
 requirements: [
   lead/250
