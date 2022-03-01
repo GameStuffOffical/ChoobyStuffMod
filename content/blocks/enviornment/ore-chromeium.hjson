@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: chromeium
+mapColor:ffffffff
+hasColor: true
