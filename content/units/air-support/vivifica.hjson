@@ -1,6 +1,7 @@
 name: Remedy
 type: flying
 flying: true
+rotateSpeed: .5
 health: 250
 speed: 2.5
 accel: 0.25
@@ -9,6 +10,7 @@ controller: repairAI
 weapons: [
     {
     name: heal-laser
+    x: 0
     mirror: false
     reload: 120
     shootSound: lasershoot
