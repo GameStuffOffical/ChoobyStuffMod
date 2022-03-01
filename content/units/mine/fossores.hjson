@@ -9,4 +9,4 @@ controller: minerAI
 
 itemCapacity: 20
 mineTier: 2
-mineSpeed: 3
+mineSpeed: 6
