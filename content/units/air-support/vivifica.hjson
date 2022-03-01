@@ -1,0 +1,24 @@
+name: Remedy
+type: flying
+flying: true
+health: 250
+speed: 2.5
+accel: 0.25
+drag: 0.01
+controller: repairAI
+weapons: [
+    {
+    name: heal-laser
+    mirror: false
+    reload: 60
+    shootSound: lasershoot
+    shake: 0.5
+    bullet: {
+      type: LaserBulletType
+      damage: 20
+      collidesTeam: true
+      healPercent: 100
+      hitEffect: none
+    }
+  }
+]
