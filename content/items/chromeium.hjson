@@ -1,0 +1,9 @@
+name:Chromeium
+description:Very strong material
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 4
+alwaysUnlocked: true
+charge: 0
+cost: 15
