@@ -16,10 +16,9 @@ weapons: [
     bullet: {
       colors: [
         ffffffff
-        55ff55ff
-        00ff00ff
+        11ff11ff
       ]
-      width: 80
+      width: 44
       type: LaserBulletType
       damage: 20
       collidesTeam: true
