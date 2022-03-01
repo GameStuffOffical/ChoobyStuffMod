@@ -16,8 +16,8 @@ weapons: [
     bullet: {
       colors: [
         ffffffff
-        00ff00ff
-        ff0000ff
+        eeffeeff
+        ddffddff
       ]
       width: 80
       type: LaserBulletType
