@@ -1,0 +1,12 @@
+name: Fossores
+type: flying
+flying: true
+health: 1150
+speed: 2
+accel: 0.25
+drag: 0.01
+controller: minerAI
+
+itemCapacity: 20
+mineTier: 2
+mineSpeed: 3
