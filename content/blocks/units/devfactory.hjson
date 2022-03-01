@@ -1,0 +1,37 @@
+name:Developer Factory
+description:Creates all the units
+type: UnitFactory
+size:3
+
+consumes: {
+  power: 0
+}
+plans: [
+  {
+    unit: pill
+    time: 0
+    requirements: [
+      copper/0
+    ]
+  }
+    {
+    unit: remedy
+    time: 0
+    requirements: [
+      copper/0
+    ]
+  }
+    {
+    unit: fossores
+    time: 0
+    requirements: [
+      copper/0
+    ]
+  }
+]
+requirements: [
+  lead/75
+  silicon/40
+]
+research: ground-factory
+category: units
