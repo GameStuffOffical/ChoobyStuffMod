@@ -11,28 +11,7 @@ accel: 0.25
 drag: 0.01
 hitSize: 20
 controller: repairAI
-weapons: [
-    {
-    name: main-heal-laser
-    x: 0
-    y: 8
-    mirror: false
-    reload: 120
-    shootSound: lasershoot
-    shake: 0.5
-    bullet: {
-      colors: [
-        ffffffff
-        11ff11ff
-      ]
-      width: 20
-      type: LaserBulletType
-      damage: 40
-      collidesTeam: true
-      healPercent: 100
-      hitEffect: none
-    }
-  }
+
       {
     name: heal-laser
     x: 3
