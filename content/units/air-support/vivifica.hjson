@@ -15,7 +15,7 @@ weapons: [
     {
     name: heal-laser
     x: 0
-    y: 10
+    y: 8
     mirror: false
     reload: 120
     shootSound: lasershoot
