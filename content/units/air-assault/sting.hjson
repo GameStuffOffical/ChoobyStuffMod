@@ -1,0 +1,32 @@
+name: Sting
+type: flying
+flying: true
+description: A stronger variant of the flare. Faster and more annoying.
+health:350
+range: 200
+drag: 0.5
+rotateSpeed: 100
+speed: 6
+accel: .5
+hitSize: 15
+circleTarget: true
+engineOffset: 10
+commandLimit : 4
+engineSize: 5
+targetGround: true
+targetAir: true
+
+weapons: [ 
+{
+    name: The Sting
+    ammoMultiplier: 2
+    reload: 20
+    x: 0
+    y: 2
+    mirror: false
+      bullet: {
+        type: ShrapnelBulletType
+        damage: 60
+        length: 150
+        width: 15
+ }}]
