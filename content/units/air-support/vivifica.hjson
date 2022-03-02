@@ -1,9 +1,9 @@
 name: Remedy
 type: flying
 flying: true
-rotateSpeed: .5
+rotateSpeed: 1
 health: 250
-speed: 2.5
+speed: 1.5
 accel: 0.25
 drag: 0.01
 controller: repairAI
