@@ -36,7 +36,7 @@ weapons: [
     name: secondary-heal-laser
     x: 3
     mirror: true
-    reload: 60
+    reload: 30
     shootSound: lasershoot
     shake: 0.25
     rotate: true
@@ -47,7 +47,7 @@ weapons: [
       ]
       width: 5
       type: LaserBulletType
-      damage: 20
+      damage: 5
       collidesTeam: true
       healPercent: 100
       hitEffect: none
