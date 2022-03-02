@@ -30,5 +30,4 @@ controller: repairAI
       healPercent: 100
       hitEffect: none
     }
-  }
 ]
