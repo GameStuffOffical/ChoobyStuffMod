@@ -11,8 +11,6 @@ accel: 0.25
 drag: 0.01
 hitSize: 20
 controller: repairAI
-
-      {
     name: heal-laser
     x: 3
     mirror: true
