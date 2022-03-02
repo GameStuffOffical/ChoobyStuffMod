@@ -1,4 +1,4 @@
-name: Remedy
+name: Vivifica
 type: flying
 flying: true
 rotateSpeed: 1
@@ -6,6 +6,7 @@ health: 250
 speed: 1.5
 accel: 0.25
 drag: 0.01
+size: 100
 controller: repairAI
 weapons: [
     {
