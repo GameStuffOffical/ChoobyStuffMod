@@ -14,6 +14,11 @@ status: slow
 consumes: {
   power: 6.6
 }
+colors: [
+  ffffff11
+  ffffff55
+  ffffffff
+]
 hitEffect: hitLancer
 category: turret
 requirements: [
