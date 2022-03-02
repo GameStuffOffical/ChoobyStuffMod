@@ -14,7 +14,7 @@ status: slow
 consumes: {
   power: 6.6
 }
-laserColor: [
+laserColors: [
   ffffff11
   ffffff55
   ffffffff
