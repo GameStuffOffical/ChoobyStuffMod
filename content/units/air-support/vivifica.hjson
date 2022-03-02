@@ -15,6 +15,7 @@ weapons: [
     {
     name: heal-laser
     x: 0
+    y: 10
     mirror: false
     reload: 120
     shootSound: lasershoot
@@ -36,7 +37,7 @@ weapons: [
     name: secondary-heal-laser
     x: 3
     mirror: true
-    reload: 30
+    reload: 25
     shootSound: lasershoot
     shake: 0.25
     rotate: true
