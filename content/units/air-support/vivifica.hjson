@@ -1,20 +1,18 @@
 name: Vivifica
-forceMultiTarget: true
-outlines: true
-outlineRadius: 3
 type: flying
 flying: true
-rotateSpeed: 1
+rotateSpeed: 3
 health: 250
 speed: 1.5
 accel: 0.25
 drag: 0.01
 hitSize: 20
 controller: repairAI
-weapon: [
+weapons: [
 {
     name: heal-laser
     x: 3
+    y: 0
     mirror: true
     reload: 25
     shootSound: lasershoot
