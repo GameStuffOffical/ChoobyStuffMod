@@ -13,10 +13,6 @@ controller: repairAI
 weapons: [
     {
     name: mega-heal-laser
-    chargeTime: 120
-    chargeEffects: 100
-    chargeEffect: lancerLaserCharge
-    chargeBeginEffect: lancerLaserChargeBegin
     x: 0
     y: 12
     mirror: false
@@ -24,6 +20,10 @@ weapons: [
     shootSound: lasershoot
     shake: 2
     bullet: {
+      chargeTime: 120
+      chargeEffects: 100
+      chargeEffect: lancerLaserCharge
+      chargeBeginEffect: lancerLaserChargeBegin
       colors: [
         ffffffff
         66ff66ff
