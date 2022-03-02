@@ -9,12 +9,12 @@ health: 1200
 force: 0
 damage: 5
 laserWidth: .5
-statusDuration: 10
+statusDuration: 160
 status: slow
 consumes: {
   power: 6.6
 }
-colors: [
+laserColor: [
   ffffff11
   ffffff55
   ffffffff
