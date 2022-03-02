@@ -8,7 +8,7 @@ health: 250
 speed: 1.5
 accel: 0.25
 drag: 0.01
-hitSize: 10
+hitSize: 20
 controller: repairAI
 weapons: [
     {
