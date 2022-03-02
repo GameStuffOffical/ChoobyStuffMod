@@ -31,4 +31,25 @@ weapons: [
       hitEffect: none
     }
   }
+      {
+    name: secondary-heal-laser
+    x: 3
+    mirror: true
+    reload: 60
+    shootSound: lasershoot
+    shake: 0.25
+    rotate: true
+    bullet: {
+      colors: [
+        ffffffff
+        11ff11ff
+      ]
+      width: 5
+      type: LaserBulletType
+      damage: 20
+      collidesTeam: true
+      healPercent: 100
+      hitEffect: none
+    }
+  }
 ]
