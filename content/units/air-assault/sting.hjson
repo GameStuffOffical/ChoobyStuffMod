@@ -6,13 +6,13 @@ health:350
 range: 200
 drag: 0.5
 rotateSpeed: 100
-speed: 6
+speed: 4
 accel: .5
-hitSize: 15
+hitSize: 30
 circleTarget: true
-engineOffset: 10
+engineOffset: 6
 commandLimit : 4
-engineSize: 5
+engineSize: 1
 targetGround: true
 targetAir: true
 
@@ -20,7 +20,7 @@ weapons: [
 {
     name: The Sting
     ammoMultiplier: 2
-    reload: 20
+    reload: 60
     x: 0
     y: 2
     mirror: false
@@ -28,5 +28,5 @@ weapons: [
         type: ShrapnelBulletType
         damage: 60
         length: 150
-        width: 15
+        width: 30
  }}]
