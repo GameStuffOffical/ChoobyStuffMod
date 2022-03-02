@@ -38,7 +38,7 @@ weapons: [
     }
   }
       {
-    name: secondary-heal-laser-no-sprite
+    name: heal-laser
     x: 9
     mirror: true
     reload: 25
