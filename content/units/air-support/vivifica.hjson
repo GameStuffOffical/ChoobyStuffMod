@@ -1,4 +1,5 @@
 name: Vivifica
+forceMultiTarget: true
 outlines: true
 outlineRadius: 3
 type: flying
