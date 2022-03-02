@@ -13,10 +13,14 @@ controller: repairAI
 weapons: [
     {
     name: mega-heal-laser
+    chargeTime: 120
+    chargeEffects: 100
+    chargeEffect: lancerLaserCharge
+    chargeBeginEffect: lancerLaserChargeBegin
     x: 0
     y: 12
     mirror: false
-    reload: 240
+    reload: 480
     shootSound: lasershoot
     shake: 2
     bullet: {
