@@ -7,28 +7,29 @@ rotateSpeed: 1
 health: 2500
 speed: 1
 accel: 0.25
-drag: 0.01
+drag: 0.5
 hitSize: 40
 controller: repairAI
 weapons: [
     {
     name: mega-heal-laser
     x: 0
-    y: 15
+    y: 12
     mirror: false
     reload: 240
     shootSound: lasershoot
-    shake: 0.5
+    shake: 2
     bullet: {
       colors: [
         ffffffff
+        66ff66ff
         11ff11ff
       ]
       width: 80
       type: LaserBulletType
-      damage: 3200
+      damage: 16
       collidesTeam: true
-      healPercent: 100
+      healPercent: 1000
       hitEffect: none
     }
   }
