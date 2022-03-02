@@ -42,6 +42,13 @@ plans: [
       copper/0
     ]
   }
+        {
+    unit: renatus
+    time: 0
+    requirements: [
+      copper/0
+    ]
+  }
 ]
 requirements: [
   lead/75
