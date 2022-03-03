@@ -30,7 +30,7 @@ weapons: [
         heal
       ]
       lifetime: 30
-      width: 80
+      width: 40
       type: LaserBulletType
       damage: 16
       collidesTeam: true
