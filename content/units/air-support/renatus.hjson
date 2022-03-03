@@ -26,12 +26,11 @@ weapons: [
     "bullet": {
       colors: [
         ffffffff
-        heal
       ]
       lifetime: 30
-      width: 40
+      width: 20
       type: LaserBulletType
-      damage: 16
+      damage: 1
       collidesTeam: true
       healPercent: 100
       hitEffect: none
@@ -48,14 +47,13 @@ weapons: [
     rotate: true
     bullet: {
       colors: [
-        ffffffff
-        heal
+        55ff55ff
       ]
       width: 5
       type: LaserBulletType
       damage: 5
       collidesTeam: true
-      healPercent: 100
+      healPercent: 3
       hitEffect: none
     }
   }
