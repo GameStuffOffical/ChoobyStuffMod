@@ -22,7 +22,7 @@ weapons: [
     reload: 480
     shootSound: laserblast
     chargeSound: lasercharge
-    cooldownTime 350
+    cooldownTime: 350
     shake: 2
     bullet: {
       colors: [
