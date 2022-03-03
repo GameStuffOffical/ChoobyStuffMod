@@ -19,21 +19,23 @@ weapons: [
     y: 12
     mirror: false
     reload: 480
-    shootSound: lasershoot
+    shootSound: laserblast
+    chargeSound: lasercharge
+    cooldownTime 350
     shake: 2
     bullet: {
       colors: [
         ffffffff
-        66ff66ff
-        11ff11ff
+        heal
       ]
       lifetime: 30
       width: 80
       type: LaserBulletType
       damage: 16
       collidesTeam: true
-      healPercent: 1000
+      healPercent: 100
       hitEffect: none
+      shootEffect: greenLaserCharge
     }
   }
       {
@@ -47,7 +49,7 @@ weapons: [
     bullet: {
       colors: [
         ffffffff
-        11ff11ff
+        heal
       ]
       width: 5
       type: LaserBulletType
