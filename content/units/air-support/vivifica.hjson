@@ -25,9 +25,9 @@ weapons: [
       ]
       width: 5
       type: LaserBulletType
-      damage: 5
+      damage: 1
       collidesTeam: true
-      healPercent: 100
+      healPercent: 5
       hitEffect: none
     }
   }
