@@ -14,8 +14,7 @@ status: slow
 consumes: {
   power: 6.6
 }
-laserColor: aaffaa
-hitEffect: hitLancer
+laserColor: ffffff55
 category: turret
 requirements: [
   lead/250
