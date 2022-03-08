@@ -1,0 +1,8 @@
+name:Bean
+description: Plant that went extingt after the seeding effect.
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+alwaysUnlocked: false
+charge: 0
+cost: 15
