@@ -9,7 +9,7 @@ rotateSpeed: 100
 speed: 4
 accel: .5
 hitSize: 30
-circleTarget: true
+circleTarget: false
 engineOffset: 6
 commandLimit : 4
 engineSize: 1
@@ -28,5 +28,5 @@ weapons: [
         type: ShrapnelBulletType
         damage: 60
         length: 150
-        width: 30
+        width: 15
  }}]
