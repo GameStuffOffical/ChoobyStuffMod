@@ -24,6 +24,7 @@ weapons: [
     reload: 24
     shootCone: 180
     mirror: false
+    range: 80
     bullet: {
       type: BombBulletType
       lifetime: 10
