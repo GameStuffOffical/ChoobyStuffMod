@@ -3,7 +3,7 @@ type: flying
 flying: true
 description: A flying scuicide bomber.
 health: 180
-range: 40
+range: 160
 accel: 4
 drag: 0.005
 rotateSpeed: 100
