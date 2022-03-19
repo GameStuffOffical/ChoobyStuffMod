@@ -16,6 +16,7 @@ engineSize: 1.5
 engineOffset: 0
 targetGround: true
 targetAir: false
+controller: FlyingAI
 
 weapons: [ 
   {
