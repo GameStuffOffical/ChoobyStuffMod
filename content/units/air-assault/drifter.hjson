@@ -21,7 +21,7 @@ circleTarget: true
 
 weapons: [ 
   {
-    reload: 24
+    reload: 600
     shootCone: 180
     mirror: false
     bullet: {
