@@ -4,7 +4,7 @@ flying: true
 description: A flying scuicide bomber.
 health: 180
 range: 40
-accel: 0.16
+accel: 1
 drag: 0.005
 rotateSpeed: 100
 speed: 3.5
@@ -12,7 +12,8 @@ armor: 0
 hitSize: 8
 engineOffset: 6
 commandLimit : 4
-engineSize: 1
+engineSize: 1.5
+engineOffset: -0.1
 targetGround: true
 targetAir: false
 controller: ScuicideAI
