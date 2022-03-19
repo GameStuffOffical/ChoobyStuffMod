@@ -29,6 +29,13 @@ plans: [
     ]
   }
       {
+    unit: drifter
+    time: 0
+    requirements: [
+      copper/0
+    ]
+  }
+      {
     unit: vivifica
     time: 0
     requirements: [
