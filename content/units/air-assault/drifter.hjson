@@ -17,6 +17,7 @@ engineOffset: 0
 targetGround: true
 targetAir: false
 controller: FlyingAI
+circleTarget: true
 
 weapons: [ 
   {
