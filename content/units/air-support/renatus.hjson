@@ -32,7 +32,7 @@ weapons: [
       type: LaserBulletType
       damage: 1
       collidesTeam: true
-      healPercent: 100
+      healPercent: 25
       hitEffect: none
       shootEffect: greenLaserCharge
     }
